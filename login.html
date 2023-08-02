@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>find your loved ones </title>
+<link rel="stylesheet" href="style.css" >
+<script type="text/javascript">
+    function preventBack() {
+        window.history.forward(); 
+    }
+      
+    setTimeout("preventBack()", 0);
+      
+    window.onunload = function () { null };
+</script>
+</head>
+<body>
+    <div class="header">
+        <h4 class="fylo"><B><i> Find Your Loved Once </i></B></h4>
+        <a class="home" href="first.html"><b>Home</b></a>
+        <a class="aboutus" href="first.html"><b>AboutUs</b></a>
+        <div class="cantact" ><b>CantactUs</b>
+        <div class="content">
+            <p>Email : Fylo@gamil.com<br> Phone : +21626382150</p>
+        </div>
+        </div>
+    </div>
+    <form class="f1" action="check.php" method="POST">
+        <center>
+<div  class="cantainer">
+     <h1 class="tag"><i>FYLO</i></h1>
+        <h2>Welcome</h2>
+        <input type="email" placeholder=" Email " name="username" class="username" required>
+        <input type="password" placeholder=" Password" name="password" class="password"required>
+       
+        <h5>Not Registered?</h5> 
+
+</div>
+ <a href="fourm.html">Sign Up</a>
+<button type="submit" class="submitbutton">Login </button>
+</center>
+
+</form>
+
+<div class="footer">
+    &copy; All rights reserved</div>
+
+</body>
+</html>

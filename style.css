@@ -1,0 +1,149 @@
+body{
+    background-image:url("1.jpg");
+
+}
+
+h4.fylo{
+    color: rgb(125, 8, 8);
+    position: absolute;
+    top:20px;
+    right:1600px;
+    font-size: x-large;
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.home{
+    color: #000;
+    position: absolute;
+    top: 5%;
+    left: 1500px ; 
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cantact{
+    color: #000;
+    position: absolute;
+    top:5%;
+    left: 1580px ; 
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+}
+.content{
+    display: none;
+}
+.cantact:hover .content{
+    display: block;
+}
+
+.aboutus{
+    color: #000;
+    position: absolute;
+    top:5%;
+    left :1700px ;
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+.f1{
+
+    background-color: rgb(255, 127, 127);
+    position: relative;
+    top: 150px;
+    left: 700px;
+    height: 600px;
+    width: 400px;
+    border: none;
+    border-radius: 5%;
+    box-shadow:-4px -8px 8px -4px rgba(212, 191, 191, 0.762);
+}
+
+h2{ 
+    color: white;
+    position: relative;
+    top: 90px;
+    right: 5px;
+
+
+}
+h1.tag{
+color: rgb(253, 47, 47);
+position: relative;
+top: 40px;
+
+}
+.username{
+    color: white;
+    position: relative;
+    top:100px;
+    width: 250px;
+    height: 25px;
+    background-color: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px;
+    border-bottom-color: black;
+
+}
+.password{
+    color: black;
+    position: relative;
+    top:130px;
+    width: 250px;
+    height: 25px;
+    background-color: transparent;
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px;
+    border-bottom-color: black;
+
+}
+.submitbutton{
+    position: relative;
+    background-color: rgb(226, 43, 43);
+    width: 80px;
+    height:40px;
+    top:120px;
+    right:30px;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;
+    
+    }
+   
+    
+      
+      .submitbutton:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+    
+a{
+    position: relative;
+    top: 200px;
+    left:40px;
+    padding-bottom: 10px;
+
+}
+
+h5{
+ position: relative;
+ top:250px;
+ right:100px;
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}

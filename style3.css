@@ -1,0 +1,424 @@
+body{
+background-color:#c0c0c0;
+width: 1000px;
+height: 50px;
+}
+.header{
+
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    bottom: 25px;
+    width: 100%;
+    height: 90px;
+    margin-bottom:-25px;
+    border: none;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+}
+
+h4.fylo{
+    color: rgb(125, 8, 8);
+    position: relative;
+    top:25px;
+    right:350px;
+    font-size: x-large;
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search1
+{    background-color:rgb(199, 105, 105);
+    filter: brightness(120%);
+    position: relative;
+    top:50px;
+    left:350px;
+    width:900px ;
+    height: 50px;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+box-shadow: -8px -4px 8px -8px;
+
+}
+.home{
+    color: #000;
+    position: relative;
+    bottom: 33px;
+    left:400px ;
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile{
+    background-color: bisque;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cantact{
+  color: #000;
+  position: relative;
+  bottom: 70px;
+  left: 950px ; 
+  font-style:italic; 
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: inline-block;
+}
+.content{
+  display: none;
+}
+.cantact:hover .content{
+  display: block;
+}
+
+.Premium{
+    color: #797111;
+    position: absolute;
+    bottom: 30px;
+    left: 1710px ; 
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.aboutus{
+    color: #000;
+    position: absolute;
+    bottom: 30px;
+    left :1530px ;
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.disc{
+    color:#000;
+    position: absolute;
+    bottom: 30px;
+    left:1620px ; 
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.f1{
+    position: absolute;
+    top:220px;
+    left:15px;
+    background-color:rgb(169, 105, 105);
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    border: none;
+    border-radius: 15px;
+    opacity: 80%;
+    box-shadow: -4px -8px 10px -4px ;
+
+
+}
+
+.f2{
+    background-color: rgb(169, 105, 105);
+    width: 500px;
+    height: 750px;
+    position: absolute;
+    left:1340px;
+    top:220px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 80%;
+}
+.f3{
+
+    display:flex;
+    position: absolute;
+    top:220px ; 
+    left: 460px;
+ 
+}
+
+.f4{
+
+    position:absolute;
+    top:650px;
+    left:15px;
+    background-color: rgb(169, 105, 105);
+    width: 400px;
+    height: 350px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);;
+}
+.hope{
+    position: relative;
+    color:rgb(125, 8, 8);
+    top:25px;
+    left:70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+.work{
+    position: relative;
+    top: 50px;
+    left:90px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(209, 186, 186);
+    cursor: pointer;
+}
+.work:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+.prof{
+    background-color:rgb(169, 105, 105);
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 15px;
+  
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.messages{
+position: relative;
+top:20px;
+left:15px;
+font-weight: 1000;
+font-size: xx-large;
+}
+.pic1{
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+    width: 100px;
+    height: auto; 
+ border:none; 
+ border-radius: 20px;
+}
+.pic2{
+    position: relative;
+    top:5px;
+    left: 45px;
+    width: 90px;
+    height: auto;
+}
+.pic3{
+    position: relative;
+    top:5px;
+    left: 25px;
+    width: 40px;
+    height: auto;
+
+}
+.name2{
+    position: relative;
+    left: 50px ;
+    bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.search2{
+position: relative;
+background-color: rgb(203, 109, 109);
+font-weight: 500;
+font-size:large;
+left: 170px;
+bottom: 45px ;
+width: 300px;
+height: 30px;
+border: none ;
+border-radius: 25px;
+cursor: pointer;
+
+}
+.checkprofile{
+    background-color: rgb(105, 105, 105);
+
+    position: relative;
+    top:40px;
+    right: 5px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+  .checkprofile:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.new{
+    position: relative;
+    left:35px ;
+    bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400;
+    font-weight: 700;
+}
+.message{
+    position: relative;
+    left:25px;
+    margin-bottom: 15px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 450px;
+}
+.n{
+    position: relative;
+    left:130px;
+    bottom: 90px;
+    width: 170px;
+    height: 30px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 25px;
+
+}
+.in1{
+    position: relative;
+    left:10px;
+    top:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:400px;
+}
+.n2{
+    position: relative;
+    left:20px;
+    bottom: 80px;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 15px;
+  
+    border: none;
+    border-radius: 25px; 
+}
+
+.edit{
+    position: relative;
+    left: 70px;
+    bottom: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(209, 186, 186);
+    border: none;
+    border-radius:50px ; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+  
+  .edit:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .map{
+    position: absolute;
+    left: 470px;
+    bottom:80px;
+   
+  }
+  .map iframe{
+     border: none;
+    border-radius: 25px;
+  }
+
+  .loader {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top:30px;
+    left:100px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 25px 75px rgba(0,0,0,0.55);
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .loader::before {
+    content: '';
+    position: absolute;
+    inset: 20px;
+    background: transparent;
+    border: 1px dashed#444;
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 25px rgba(0,0,0,0.25),
+    inset 5px 5px 35px rgba(0,0,0,0.25);
+  }
+  
+  .loader::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px dashed#444;
+    box-shadow: inset -5px -5px 25px rgba(0,0,0,0.25),
+    inset 5px 5px 35px rgba(0,0,0,0.25);
+  }
+  
+  .loader span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    transform-origin: top left;
+    animation: radar81 2s linear infinite;
+    border-top: 1px dashed #fff;
+  }
+  
+  .loader span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: seagreen;
+    transform-origin: top left;
+    transform: rotate(-55deg);
+    filter: blur(30px) drop-shadow(20px 20px 20px seagreen);
+  }
+  
+  @keyframes radar81 {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  
+.footer {
+  position: absolute;
+  top: 1000px;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,223 @@
+body{
+ background-image: url("pexels-belle-co-1000445 (3).jpg");
+
+}
+h4.fylo{
+    color: rgb(125, 8, 8);
+    position: absolute;
+    top:20px;
+    right:1600px;
+    font-size: x-large;
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.home{
+    color: #000;
+    position: absolute;
+    top: 5%;
+    left: 1500px ; 
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cantact{
+    color: #000;
+    position: absolute;
+    top:5%;
+    left: 1600px ; 
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+}
+.content{
+    display: none;
+}
+.cantact:hover .content{
+    display: block;
+}
+
+
+.aboutus{
+    color: #000;
+    position: absolute;
+    top:5%;
+    left :1700px ;
+    font-style:italic; 
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.f1{
+
+    background-color: rgb(255, 127, 127);
+    position: relative;
+    top:100px;
+    height: 700px;
+    width: 500px;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h2{
+    color: aliceblue;
+    position: relative;
+    top:30px;
+
+}
+
+
+
+.fn{
+    background-color: rgb(179, 175, 175);
+    position: relative;
+    top: 70px;
+    right: 90px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-radius: 80px;
+
+}
+.ln,.mn{
+    background-color: rgb(179, 175, 175);
+    position: relative;
+    top: 40px;
+    left:120px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 80px;
+}
+.db{
+    background-color:rgb(179, 175, 175);
+    position: relative;
+    top: 65px;
+    right: 90px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 80px;
+}
+.bl{
+    background-color: rgb(179, 175, 175);
+    position: relative;
+    top: 35px;
+    left:125px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 80px;
+}
+
+.adr{
+
+    background-color: rgb(179, 175, 175);
+    position: relative;
+    top: 60px;
+    right: 90px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 80px;
+
+}
+.ph{
+    background-color: rgb(179, 175, 175);
+    position: relative;
+    top: 30px;
+    left: 120px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 80px;
+}
+.info{
+    background-color: rgb(179, 175, 175);
+    position: relative;
+    top: 50px;
+    left: 15px;
+    width: 400px;
+    height: 30px;
+    border: none;
+    border-radius: 80px;
+}
+
+
+a.back{
+    position: relative;
+    top:150px;
+}
+
+.sbt,.rst{
+    background-color: rgb(226, 43, 43);
+    position: relative;
+    top: 130px;
+    left: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+   
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+  
+  .sbt:hover,.rst:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+
+
+
+
+
+.img{
+    position: relative;
+    background-color: rgb(179, 175, 175);
+    top: 90px;
+    right: 20px;
+    border-radius: 80px;
+}
+
+.b{
+    position: relative;
+    color: rgb(213, 212, 212);
+    top: 90px;
+    right: 25px;
+    border-radius: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+
+.ps1{
+    position: relative;
+    background-color:rgb(179, 175, 175) ;
+    top: 20px;
+    left:120px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 80px;
+}
+.ps{
+    position: relative;
+    background-color:rgb(179, 175, 175) ;
+    top: 50px;
+    right:90px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 80px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
